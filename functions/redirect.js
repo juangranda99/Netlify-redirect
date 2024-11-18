@@ -1,10 +1,19 @@
 // functions/redirect.js
 exports.handler = async (event) => {
-  const decodedQuery = decodeURIComponent(event.rawQuery.replace(/&amp;/g, '&'));
+  console.log('Query parameters received:', event.rawQuery || event.queryStringParameters || '');
+  
+  // Convert queryStringParameters to string if it's an object
+  const queryString = typeof event.queryStringParameters === 'object' 
+    ? new URLSearchParams(event.queryStringParameters).toString()
+    : (event.rawQuery || '');
+    
+  const decodedQuery = decodeURIComponent(queryString.replace(/&amp;/g, '&'));
+  console.log('Decoded query:', decodedQuery);
   const queryParams = new URLSearchParams(decodedQuery);
 
   const a = queryParams.get('a')?.trim();
   const b = queryParams.get('b')?.trim()?.toLowerCase() || 'r';
+  console.log('Parsed parameters:', { a, b });
 
   const redirects = {
     // 4455
@@ -18,6 +27,7 @@ exports.handler = async (event) => {
     for (const [prefix, urls] of Object.entries(redirects)) {
       if (a.startsWith(prefix)) {
         if (!urls[b]) {
+          console.log('No matching URL found for prefix and type:', { prefix, b });
           return {
             statusCode: 302,
             headers: { Location: 'https://google.com' }
@@ -40,6 +50,7 @@ exports.handler = async (event) => {
             : `${baseUrl}?${subParamsString}`
           : baseUrl;
 
+        console.log('Redirecting to:', finalUrl);
         return {
           statusCode: 302,
           headers: { Location: encodeURI(finalUrl) }
@@ -48,6 +59,7 @@ exports.handler = async (event) => {
     }
   }
 
+  console.log('No valid redirect found, falling back to default');
   return {
     statusCode: 302,
     headers: { Location: 'https://google.com' }
