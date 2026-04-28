@@ -30,10 +30,10 @@ exports.handler = async (event) => {
 
     // Objeto para las imágenes con códigos cortos
     const images = {
-      i1: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/8000%20CPC%2FFireShot%20Capture%20227%20-%20%20-%20%5B%5D.jpg?alt=media&token=0ab40bf9-6291-4818-9bce-d6d5bd2f1843', // 500 997
-      i2: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/8000%20CPC%2FScreenshot%202026-03-23%20at%2010.18.55%E2%80%AFPM.jpg?alt=media&token=1c345de8-b49a-43ea-b535-dbd294b8dbe9', // 500 55
-      i3: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/8535%20-%20Comcast%2FFireShot%20Capture%20048%20-%20%20-%20%5B%5D.jpg?alt=media&token=bfb02718-8916-4681-839a-cd677412ef4b', // 500 1557
-      i4: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/8535%20-%20Comcast%2FScreenshot%202025-09-30%20at%2011.26.42%E2%80%AFPM.jpg?alt=media&token=752eb9f9-b519-4ba9-b064-164f21520ef6', // 500 51
+      i1: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/9395%20-%20CPC%2FScreenshot%202026-04-08%20at%206.09.43%E2%80%AFPM.jpg?alt=media&token=c346d5f0-131c-422c-83ae-367b8e9376d7', // 500 701
+      i2: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/9395%20-%20CPC%2FScreenshot%202026-03-30%20at%203.25.30%E2%80%AFPM.jpg?alt=media&token=9f021b04-75e4-4f56-b0e7-8d54237e30d9', // 500 61
+      i3: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/9135%20-%20Comcast%2FFireShot%20Capture%20246%20-%20%20-%20%5B%5D.jpg?alt=media&token=12ea1eab-98ba-4bc6-b887-481abe60b0ac', // 500 1206
+      i4: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/9135%20-%20Comcast%2FScreenshot%202026-04-28%20at%203.26.09%E2%80%AFPM.jpg?alt=media&token=4df5c989-4ac9-4919-9522-6fd84e24677c', // 500 94
       i5: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/7412%20-%20Comcast%2FScreenshot%202025-07-10%20at%2015.18.00%20(1).jpg?alt=media&token=a9ac6307-6717-4510-86e0-d623a5666eb5', // 500 35
       i6: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/8685%20-%20Comcast%2FFireShot%20Capture%20241%20-%20LaserAway%20-%20%5B%5D.jpg?alt=media&token=1991e13f-249c-4b2b-8466-88722df76ad6', // 500 1431
       i7: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/8685%20-%20Comcast%2FScreenshot%202025-09-28%20at%2012.21.07.jpg?alt=media&token=d3cdcbbe-e5e1-422d-b8ad-b5c32e53bc4d', // 500 73
