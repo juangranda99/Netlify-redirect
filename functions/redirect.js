@@ -1,5 +1,3 @@
-// functions/redirect.js
-import { google } from 'googleapis';
 
 exports.handler = async (event) => {
   console.log('Query parameters received:', event.rawQuery || event.queryStringParameters || '');
@@ -915,7 +913,6 @@ exports.handler = async (event) => {
 
   // Verificar si el parámetro 'o' está presente
   if (o) {
-    await saveToGoogleSheet(sub1, sub2); 
 
     console.log(`Devolviendo el pixel con el parámetro 'o': ${o}`);
     const gif = 'R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==';
@@ -970,52 +967,3 @@ exports.handler = async (event) => {
     headers: { Location: 'https://google.com' }
   };
 };
-
-// Función para guardar en Google Sheets
-async function saveToGoogleSheet(sub1, sub2) {
-  // Cargar las credenciales desde las variables de entorno
-  const credentials = {
-    type: process.env.GOOGLE_TYPE,
-    project_id: process.env.GOOGLE_PROJECT_ID,
-    private_key_id: process.env.GOOGLE_PRIVATE_KEY_ID,
-    private_key: process.env.GOOGLE_PRIVATE_KEY.replace(/\\n/g, '\n'), // Reemplazar \n por saltos de línea
-    client_email: process.env.GOOGLE_CLIENT_EMAIL,
-    client_id: process.env.GOOGLE_CLIENT_ID,
-    auth_uri: process.env.GOOGLE_AUTH_URI,
-    token_uri: process.env.GOOGLE_TOKEN_URI,
-    auth_provider_x509_cert_url: process.env.GOOGLE_AUTH_PROVIDER_CERT_URL,
-    client_x509_cert_url: process.env.GOOGLE_CLIENT_CERT_URL,
-    universe_domain: process.env.GOOGLE_UNIVERSE_DOMAIN,
-  };
-
-  console.log('GOOGLE_CREDENTIALS:', process.env.GOOGLE_CREDENTIALS);
-  const auth = new google.auth.GoogleAuth({
-    credentials,
-    scopes: ['https://www.googleapis.com/auth/spreadsheets'],
-  });
-
-  const sheets = google.sheets({ version: 'v4', auth });
-
-  const spreadsheetId = '13DOiuvknZoHrUuHmEjMEtq5fMaazHoASY7XBIn939DA';
-
-  const range = 'trackingsub!A1:B';
-
-  const values = [[sub1, sub2]];
-
-  const resource = {
-    values,
-  };
-
-  try {
-    const response = await sheets.spreadsheets.values.append({
-      spreadsheetId,
-      range,
-      valueInputOption: 'RAW', 
-      resource,
-    });
-
-    console.log('Datos guardados en Google Sheets:', response.data);
-  } catch (error) {
-    console.error('Error al guardar en Google Sheets:', error);
-  }
-}
