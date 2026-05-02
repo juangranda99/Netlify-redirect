@@ -28,8 +28,8 @@ exports.handler = async (event) => {
 
     // Objeto para las imágenes con códigos cortos
     const images = {
-      i1: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/9217%20CPC%2FFireShot%20Capture%20208%20-%20%20-%20%5B%5D.jpg?alt=media&token=29c14145-e154-48b1-84f7-a3ae1034b725', // 500 820
-      i2: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/9217%20CPC%2FScreenshot%202026-03-26%20at%207.56.06%E2%80%AFPM.jpg?alt=media&token=d7a7e54b-a514-4ea9-bcff-08ac2fe4dd08', // 500 65
+      i1: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/9396%20CPC%2FFireShot%20Capture%20248%20-%20%20-%20%5B%5D.jpg?alt=media&token=c2a3e5cd-e132-4a4a-af17-7c802dbdd7fa', // 500 1046
+      i2: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/9396%20CPC%2FScreenshot%202026-04-03%20at%207.41.29%E2%80%AFPM.jpg?alt=media&token=8534f1e8-a1d9-42cc-bcb1-8ca5b88f0d9c', // 500 63
       i3: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/3776%20-%20Comcast%2FFireShot%20Capture%20198%20-%20Renewal%20By%20Andersen%20Window%20Replacement%20-%20%5B%5D.jpg?alt=media&token=6dd1c7c0-bfda-43f0-9830-997ccff8ef07', // 500 1880
       i4: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/3776%20-%20Comcast%2FScreenshot%202025-09-29%20at%2011.16.38%E2%80%AFPM.jpg?alt=media&token=344648dc-acf7-458f-8006-6fde36c30d45', // 500 29
       i5: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/3776%20-%20Comcast%2FScreenshot%202025-09-29%20at%2011.16.58%E2%80%AFPM.jpg?alt=media&token=8a954f06-4a0a-4dba-b147-d8537a7d1f2f', // 500 72
