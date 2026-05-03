@@ -28,11 +28,11 @@ exports.handler = async (event) => {
 
     // Objeto para las imágenes con códigos cortos
     const images = {
-      i1: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/9396%20CPC%2FFireShot%20Capture%20248%20-%20%20-%20%5B%5D.jpg?alt=media&token=c2a3e5cd-e132-4a4a-af17-7c802dbdd7fa', // 500 1046
-      i2: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/9396%20CPC%2FScreenshot%202026-04-03%20at%207.41.29%E2%80%AFPM.jpg?alt=media&token=8534f1e8-a1d9-42cc-bcb1-8ca5b88f0d9c', // 500 63
-      i3: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/3776%20-%20Comcast%2FFireShot%20Capture%20198%20-%20Renewal%20By%20Andersen%20Window%20Replacement%20-%20%5B%5D.jpg?alt=media&token=6dd1c7c0-bfda-43f0-9830-997ccff8ef07', // 500 1880
-      i4: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/3776%20-%20Comcast%2FScreenshot%202025-09-29%20at%2011.16.38%E2%80%AFPM.jpg?alt=media&token=344648dc-acf7-458f-8006-6fde36c30d45', // 500 29
-      i5: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/3776%20-%20Comcast%2FScreenshot%202025-09-29%20at%2011.16.58%E2%80%AFPM.jpg?alt=media&token=8a954f06-4a0a-4dba-b147-d8537a7d1f2f', // 500 72
+      i1: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/8791%20CPC%2FScreenshot%202026-04-04%20at%207.54.16%E2%80%AFPM.jpg?alt=media&token=db5edcd3-0ad9-4a19-838e-34b0bc03d4a2', // 500 790
+      i2: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/8791%20CPC%2FScreenshot%202026-04-04%20at%207.54.31%E2%80%AFPM.jpg?alt=media&token=ce57a191-6ab0-45f0-bb84-13d273515589', // 500 73
+      i3: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/7155%20-%20Comcast%2FFireShot%20Capture%20235%20-%20Healthcare.com%20-%20Medicare%20Advantage%20-%20%5B%5D.jpg?alt=media&token=6ad82d43-c5bb-4559-8e33-8dfee1df699e', // 500 1130
+      i4: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/7155%20-%20Comcast%2FScreenshot%202026-01-19%20at%202.53.16%E2%80%AFPM.jpg?alt=media&token=55f81706-6a2b-4d16-b872-ae21a502f771', // 500 395
+      i5: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/7155%20-%20Comcast%2FScreenshot%202026-01-19%20at%202.56.44%E2%80%AFPM.jpg?alt=media&token=2ba7c977-fdf7-418d-9b44-84344a743135', // 500 66
       i6: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/9083%20-%20Comcast%2FScreenshot%202026-04-02%20at%207.06.05%E2%80%AFPM.jpg?alt=media&token=a3fbd8b1-d731-4aa6-a7f4-3ea175a77e8a', // 500 574
       i7: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/9083%20-%20Comcast%2FScreenshot%202026-01-24%20at%207.10.58%E2%80%AFPM.jpg?alt=media&token=592eb10e-f595-4b6d-bceb-3a04dd011dff', // 500 64
       // Podes agregar más imágenes aquí con códigos cortos
