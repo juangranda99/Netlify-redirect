@@ -529,8 +529,8 @@ exports.handler = async (event) => {
     },
     // 9036 CPC - Drive Safe Insure - Ask for cap $2.550 daniel+162012@aguara.com.ar
     sdf: {
-      r: 'https://www.zalkkweet.com/BCN956MP/K157M75/?__efq=CaNag-E1snVXb2r39UTFOkxlBQvkq866gSxgfULNnOOPsvltxZ6uAwWMm0KLrwrN',
-      u: 'https://www.zalkkweet.com/integration/unsub1/?_redir=CiUAgbOb1TxbW_79-frqP_QzyRA8cojDgBWa7nrvikhlh10_TjUqEnUA1NLZaf6Jxfcz1zfY6YQasvE0pZY1dql1Vgz-h8Vtdvd73ZcGAcrNrQxjxQE8Gv3FVKFgcdu_DD4d9xjBgc2oudO_qfeUHsSf3TlqQ3RtJ2furhZefYxi8WId0wgLlNvetwiZFyNLLV3T5Qg0lvkGt5ze6mo'
+      r: 'https://www.zalkkweet.com/BCSQZXDD/K157M75/?__efq=CaNag-E1snVXb2r39UTFOkxlBQvkq866gSxgfULNnOOPsvltxZ6uA4NmGLdWTu3W',
+      u: 'https://www.zalkkweet.com/integration/unsub1/?_redir=CiUAgbOb1ZNqLy_irRzGWUUTIMcbkRvzQHe09pV4zM7UurSqEBG5EnUAS6SNtND8Q2vZv9DcUl4vGmqRdM_VFc5Vmo3NVjTqZYxFOpB_gAgtEsqYKApt1RidhAOWhfaVpeGVQCLwvcHd-Ec6UpSeI1HQwdYIE8RGcZflbhCqfY8bsR3yU2JWD7zTfS_CSAYlGV6EPQYoXYZ0w60-d-8'
     },
     // 8675 CPC - Veteran Insurance Discounts - Auto - Ask for Cap $2.125 daniel+162012@aguara.com.ar
     vid: {
