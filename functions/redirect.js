@@ -28,11 +28,11 @@ exports.handler = async (event) => {
 
     // Objeto para las imágenes con códigos cortos
     const images = {
-      i1: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/9036%20-%20CPC%2FScreenshot%202026-02-06%20at%208.44.16%E2%80%AFPM.jpg?alt=media&token=31979900-b8b8-4912-9d70-47cbac89cd7a', // 500 609
-      i2: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/9036%20-%20CPC%2FScreenshot%202025-09-28%20at%2012.01.29.jpg?alt=media&token=4c29bd7a-d497-4848-8858-3ca84390c6b1', // 500 71
-      i3: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/5620%20-%20Comcast%2FFireShot%20Capture%20253%20-%20TruGreen%20-%20%5B%5D.jpg?alt=media&token=5a3d388a-563b-4455-9fb6-c1e9f9127844', // 500 1327
-      i4: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/5620%20-%20Comcast%2FScreenshot%202025-07-19%20at%2009.42.03%20(1).jpg?alt=media&token=bdbfb4d8-3684-4781-9dea-bf8fe130e4eb', // 500 26
-      i5: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/5620%20-%20Comcast%2FScreenshot%202025-07-19%20at%2009.42.42%20(1).jpg?alt=media&token=ce438da2-d554-4b4f-b246-4a0db6c3d741', // 500 29
+      i1: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/7412%20-%20Comcast%2FFireShot%20Capture%20602%20-%20%20-%20.jpg?alt=media&token=aa3ae8fc-cb7a-46d7-bfe5-890f2bf06fa7', // 500 1214
+      i2: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/7412%20-%20Comcast%2FScreenshot%202025-07-10%20at%2015.17.46%20(1).jpg?alt=media&token=a546e687-27b4-467d-85e2-20b6cdf8346e', // 500 40
+      i3: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/7412%20-%20Comcast%2FScreenshot%202025-07-10%20at%2015.18.00%20(1).jpg?alt=media&token=a9ac6307-6717-4510-86e0-d623a5666eb5', // 500 35
+      i4: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/7122%20-%20Comcast%2FFireShot%20Capture%20254%20-%20New%20Page%201%20-%20%5B%5D.jpg?alt=media&token=2fd086d0-bb96-4bef-8ef3-7c99cc6f4f6a', // 500 79
+      i5: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/7122%20-%20Comcast%2FScreenshot%202026-05-10%20at%201.05.54%E2%80%AFAM.jpg?alt=media&token=99364164-55bf-4381-8035-69eb42f3c993', // 500 121
       i6: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/7909%20-%20Comcast%2FScreenshot%202026-02-06%20at%208.46.51%E2%80%AFPM.jpg?alt=media&token=810bce18-08e2-4b6c-839d-e9804d81ab9f', // 500 83
       // Podes agregar más imágenes aquí con códigos cortos
     };
@@ -527,7 +527,7 @@ exports.handler = async (event) => {
       r: 'https://www.zalkkweet.com/BD7N3BM8/K5C8PQQ/?__efq=CaNag-E1snVXb2r39UTFOkxlBQvkq866gSxgfULNnOOPsvltxZ6uA9z5nP64eOu8',
       u: 'https://www.zalkkweet.com/integration/unsub1/?_redir=CiUAgbOb1SqzIFaEF1W2e2PlyC7bKOCPcQghQtoGEu-IuWCpxFNPEnQAuzPeEiX_xScWUM1KNgrUIj9_2Embdsy92AvB9UxhE4z65cUjArKZ3AKYxB5Tz1Rt5KjBHIBymVTUuGflisK88SUVitktsYR5Eibbeuyj804bx68tFaoxGtqYApdiyQd2LV78VHuIvc2VpHvgx0iymrT0yA'
     },
-    // 9036 CPC - Drive Safe Insure - Ask for cap $2.550 daniel+162012@aguara.com.ar
+    // 9036 CPC - Drive Safe Insure - Ask for cap $2.550 daniel+162111@aguara.com.ar
     sdf: {
       r: 'https://www.zalkkweet.com/BCSQZXDD/K157M75/?__efq=CaNag-E1snVXb2r39UTFOkxlBQvkq866gSxgfULNnOOPsvltxZ6uA4NmGLdWTu3W',
       u: 'https://www.zalkkweet.com/integration/unsub1/?_redir=CiUAgbOb1ZNqLy_irRzGWUUTIMcbkRvzQHe09pV4zM7UurSqEBG5EnUAS6SNtND8Q2vZv9DcUl4vGmqRdM_VFc5Vmo3NVjTqZYxFOpB_gAgtEsqYKApt1RidhAOWhfaVpeGVQCLwvcHd-Ec6UpSeI1HQwdYIE8RGcZflbhCqfY8bsR3yU2JWD7zTfS_CSAYlGV6EPQYoXYZ0w60-d-8'
