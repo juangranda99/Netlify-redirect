@@ -28,10 +28,10 @@ exports.handler = async (event) => {
 
     // Objeto para las imágenes con códigos cortos
     const images = {
-      i1: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/9035%20-%20CPC%2FScreenshot%202026-01-21%20at%201.17.48%E2%80%AFAM.jpg?alt=media&token=70ad1ee8-4b35-4db8-8b06-a88d75eb755c', // 500 562
-      i2: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/9035%20-%20CPC%2FScreenshot%202025-09-25%20at%2000.24.27%20(1).jpg?alt=media&token=dca7b9d3-4c14-4d9c-b4a3-206f10902890', // 500 60
-      i3: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/8535%20-%20Comcast%2FFireShot%20Capture%20075%20-%20%20-%20%5B%5D.jpg?alt=media&token=5afc67db-b618-46a0-9dbe-2085ca2d1ae0', // 500 1569
-      i4: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/8535%20-%20Comcast%2FScreenshot%202025-09-30%20at%2011.26.42%E2%80%AFPM.jpg?alt=media&token=752eb9f9-b519-4ba9-b064-164f21520ef6', // 500 51
+      i1: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/9036%20-%20CPC%2FScreenshot%202026-01-22%20at%208.40.42%E2%80%AFPM.jpg?alt=media&token=818634a4-def5-4883-998f-c344304a1929', // 500 553
+      i2: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/9036%20-%20CPC%2FScreenshot%202025-09-28%20at%2012.01.29.jpg?alt=media&token=4c29bd7a-d497-4848-8858-3ca84390c6b1', // 500 71
+      i3: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/9135%20-%20Comcast%2FFireShot%20Capture%20258%20-%20%20-%20%5B%5D.jpg?alt=media&token=badaf211-d0bb-4aaf-a92c-05befd4345cf', // 500 843
+      i4: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/9135%20-%20Comcast%2FScreenshot%202026-04-28%20at%203.26.09%E2%80%AFPM.jpg?alt=media&token=4df5c989-4ac9-4919-9522-6fd84e24677c', // 500 94
       i5: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/7122%20-%20Comcast%2FScreenshot%202026-05-10%20at%201.05.54%E2%80%AFAM.jpg?alt=media&token=99364164-55bf-4381-8035-69eb42f3c993', // 500 121
       i6: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/7909%20-%20Comcast%2FScreenshot%202026-02-06%20at%208.46.51%E2%80%AFPM.jpg?alt=media&token=810bce18-08e2-4b6c-839d-e9804d81ab9f', // 500 83
       // Podes agregar más imágenes aquí con códigos cortos
@@ -106,9 +106,9 @@ exports.handler = async (event) => {
     },
     // 3776 
     ksw: {
-      r: 'https://www.zopistreo.com/BD7N3BM8/7N8NS1K/?__efq=CaNag-E1snVXb2r39UTFOkxlBQvkq866gSxgfULNnOOPsvltxZ6uA3J0PhaHyu1P',
-      p: 'https://www.zopistreo.com/BD7N3BM8/7N8NS1K/?__efq=r4edj8eXlxKv30bU3E9-Ei73s-VP8txmHTK5u3wg6A-RHXtWVXcWtLiHUZDX4gUxuzTIOYi-9dY',
-      u: 'https://www.zopistreo.com/integration/unsub1/?_redir=CiUAgbOb1X4Q0p2jihShK9jHTOdjAjFX-rP21UH4qNQAdww4pAPmEocBALsz3hJxFgZ6g4tBHdNCvTBGw177BUaZoufw2jgi6YmfPwO4pr_mTrtdmqR2ZVOfsmxJRw8XkAg8pZnk8dxr0dIM2myYzIyYXmm5KMYigt3DPxx1iv9g_i7iSK677r5Mw-B8SpkRNrm5SmSBOtArru41zOgMPO2XvO6PiGbSl2wuKvAFWwW_'
+      r: 'https://www.zalkkweet.com/BDL9J672/7N8NS1K/?__efq=CaNag-E1snVXb2r39UTFOkxlBQvkq866gSxgfULNnOOPsvltxZ6uA_eNYN0zsDrF',
+      p: 'https://www.zalkkweet.com/BDL9J672/7N8NS1K/?__efq=r4edj8eXlxKv30bU3E9-Ei73s-VP8txmHTK5u3wg6A-RHXtWVXcWtAw4ep3JtRTEleWtVLs7yts',
+      u: 'https://www.zalkkweet.com/integration/unsub1/?_redir=CiUAgbOb1foe1N2mB8ucO3rRpE0bzknDLkYxESaalOtuyk4Uf3GGEocBAEukjbScFkQE0dqs1GQqUc_nNEPNBlMFyK-DwHidBHRnFvilWETYpWVOyvRwQpuMpWqLzya-w1s49l7VqcSSLLvnLPZvceoqgbImnzL_W-o6RR47YjU66pQxRI8NbjvLPNu8iVZBYYycOiol0xabuNsqE8EC5RfJu82WEf0VN7DjiLKrFO9y'
     },
     // 8595
     muy: {
