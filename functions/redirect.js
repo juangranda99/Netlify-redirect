@@ -28,10 +28,10 @@ exports.handler = async (event) => {
 
     // Objeto para las imágenes con códigos cortos
     const images = {
-      i1: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/9036%20-%20CPC%2FScreenshot%202026-01-22%20at%208.40.42%E2%80%AFPM.jpg?alt=media&token=818634a4-def5-4883-998f-c344304a1929', // 500 553
-      i2: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/9036%20-%20CPC%2FScreenshot%202025-09-28%20at%2012.01.29.jpg?alt=media&token=4c29bd7a-d497-4848-8858-3ca84390c6b1', // 500 71
-      i3: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/9135%20-%20Comcast%2FFireShot%20Capture%20258%20-%20%20-%20%5B%5D.jpg?alt=media&token=badaf211-d0bb-4aaf-a92c-05befd4345cf', // 500 843
-      i4: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/9135%20-%20Comcast%2FScreenshot%202026-04-28%20at%203.26.09%E2%80%AFPM.jpg?alt=media&token=4df5c989-4ac9-4919-9522-6fd84e24677c', // 500 94
+      i1: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/8058%20-%20Comcast%2FFireShot%20Capture%20113%20-%20OrangeTheory%20Fitness%20-%20%5B%5D.jpg?alt=media&token=efba1a81-41fd-44b3-be22-93a68ca2a50d', // 500 1325
+      i2: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/8058%20-%20Comcast%2FScreenshot%202025-10-06%20at%2010.32.57%E2%80%AFPM.jpg?alt=media&token=0d8e17c3-f8d2-43fa-a38d-9db2f8f0194c', // 500 51
+      i3: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/6019%20-%20Comcast%2FScreenshot%202025-09-27%20at%2011.55.48.jpg?alt=media&token=535401d0-7351-40ff-926a-212d8ba80202', // 500 798
+      i4: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/6019%20-%20Comcast%2FScreenshot%202025-09-27%20at%2011.56.12.jpg?alt=media&token=cc919b14-c022-43e5-b497-e11c0d131131', // 500 63
       i5: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/7122%20-%20Comcast%2FScreenshot%202026-05-10%20at%201.05.54%E2%80%AFAM.jpg?alt=media&token=99364164-55bf-4381-8035-69eb42f3c993', // 500 121
       i6: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/7909%20-%20Comcast%2FScreenshot%202026-02-06%20at%208.46.51%E2%80%AFPM.jpg?alt=media&token=810bce18-08e2-4b6c-839d-e9804d81ab9f', // 500 83
       // Podes agregar más imágenes aquí con códigos cortos
@@ -329,10 +329,10 @@ exports.handler = async (event) => {
       r: 'https://www.zalkkweet.com/BD7N3BM8/J6X3TH5/?__efq=CaNag-E1snVXb2r39UTFOkxlBQvkq866gSxgfULNnOOPsvltxZ6uA2N-6qrCDqOM',
       u: 'https://www.zopistreo.com/integration/unsub1/?_redir=CiUAgbOb1faMx14EKxOjfqHdZeiDIYe66k6FvI0fIpiyA25ogH6rEm0AuzPeEhDVCiTzEIl-ymGHzqLOL0xltzCplD6tJtbPmKC7bpB2yX_buYfwQQmRvjxTuPIptkGG30XZtwiHA3ra5mH885jctIIB0gfJsx1Nk9ygGeK3cTqSb2M9-7CEzLHNr_dKKc6dspE-A5oo'
     },
-    // 8058 Orangetheory Fitness
+    // 8058 Orangetheory Fitness daniel+162111@aguara.com.ar
     ora: {
-      r: 'https://www.zopistreo.com/BD7N3BM8/H8M3MFC/?__efq=CaNag-E1snVXb2r39UTFOkxlBQvkq866gSxgfULNnOOPsvltxZ6uAy121SvXrh_0',
-      u: 'https://www.zopistreo.com/integration/unsub1/?_redir=CiUAgbOb1a2YSuxiPLZnSSPetIfuAnRbZk8XU13VPScy-WsQKOdYEm0AuzPeErzDsqCuBGPgP8GEPNZspehLILfV53VGl5bPNsT4Loyikr4k9F88O2FW6LU2Vcteb6V4wkHycqF0pxJJ_41KQoYXjVtCUodbr3qzamBSGP9dwXzZClkQCsUCIZkdXIxliNPXc_IQsUqC'
+      r: 'https://www.zalkkweet.com/BCSQZXDD/H8M3MFC/?__efq=CaNag-E1snVXb2r39UTFOkxlBQvkq866gSxgfULNnOOPsvltxZ6uA_bfSOxyvRoi',
+      u: 'https://www.zalkkweet.com/integration/unsub1/?_redir=CiUAgbOb1QSw9pycyX16nvIYzqxqIpG4DJJ7H9YPoywqM9nPwP_CEm0AS6SNtKAcn3-SycK-jjIU1oJ2PRlLv5v87T36MXE3EO1AfAOKNYncfNX_f7-80mRj7Jzx6mYyL3WD6Lb_F53FKFU8d7hm6XgD_-_HXuCx9hEP9RDD4EpRWVfEf7V4cfF3fFYhjwWzdbR-sb_i'
     },
     // 6019 AmericanHomeWarranty.net - Ask for Cap
     hom: {
