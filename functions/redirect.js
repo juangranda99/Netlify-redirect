@@ -28,10 +28,10 @@ exports.handler = async (event) => {
 
     // Objeto para las imágenes con códigos cortos
     const images = {
-      i1: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/8229%20-%20Comcast%2FFireShot%20Capture%20231%20-%20Endurance%20-%20%5B%5D.jpg?alt=media&token=af4bff12-e0ef-4f3c-906c-48240026fb91', // 500 1427
-      i2: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/8229%20-%20Comcast%2FScreenshot%202026-03-16%20at%2010.27.58%E2%80%AFPM.jpg?alt=media&token=7e54f060-2c94-4de8-92ad-c9c5afc9a71c', // 500 61
-      i3: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/8614%20-%20Comcast%2FFireShot%20Capture%20011%20-%20%20-%20%5B%5D.jpg?alt=media&token=5ed84c9a-0541-4757-9a05-9cbdf54e7280', // 500 1021
-      i4: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/8614%20-%20Comcast%2FScreenshot%202025-10-02%20at%208.26.48%E2%80%AFPM.jpg?alt=media&token=ef5d96a0-b867-4676-86c5-baae50b596de', // 500 36
+      i1: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/8787%20-%20Comcast%2FFireShot%20Capture%20259%20-%20%20-%20%5B%5D.jpg?alt=media&token=14030ead-d1ba-4f7e-96b0-7e54dfb748ab', // 500 982
+      i2: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/8787%20-%20Comcast%2FScreenshot%202026-05-18%20at%2010.31.46%E2%80%AFPM.jpg?alt=media&token=6436682a-b1f2-48a6-9b7a-a7c5fed9ffd7', // 500 50
+      i3: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/9178%20-%20Comcast%2FFireShot%20Capture%20261%20-%20%20-%20%5B%5D.jpg?alt=media&token=c8d35ebf-c52b-4445-af67-8675d81e2d57', // 500 848
+      i4: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/9178%20-%20Comcast%2FScreenshot%202026-05-05%20at%209.30.01%E2%80%AFPM.jpg?alt=media&token=d9a4caac-6ca8-44bf-823c-6331e426f858', // 500 48
       i5: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/3776%20-%20Comcast%2FScreenshot%202025-09-29%20at%2011.16.38%E2%80%AFPM.jpg?alt=media&token=344648dc-acf7-458f-8006-6fde36c30d45', // 500 29
       i6: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/3776%20-%20Comcast%2FScreenshot%202025-09-29%20at%2011.16.58%E2%80%AFPM.jpg?alt=media&token=8a954f06-4a0a-4dba-b147-d8537a7d1f2f', // 500 72
       // Podes agregar más imágenes aquí con códigos cortos
@@ -230,8 +230,8 @@ exports.handler = async (event) => {
     },
     // 8787 Vehicle Protection USA - M-F Drops Only - Ask for Cap
     plo: {
-      r: 'https://www.zopistreo.com/BD7N3BM8/JJRFMXZ/?__efq=CaNag-E1snVXb2r39UTFOkxlBQvkq866gSxgfULNnOOPsvltxZ6uA6OmdlZu1LlQ',
-      u: 'https://www.zopistreo.com/integration/unsub1/?_redir=CiUAgbOb1TH0Q5c5h9cJ69JfubIS6k0rU-EOJOW-zga9-9DfZsseEnEAuzPeEvmrJ6MbxX79fF_xmxXE_UifcyB6tUS9iHcel4izPRDy__EYK5JiuhlEXIijNX4otaFtxm-3MZdKbKqiCysKzOvKObJpp94Sj3pYUKvD4aOzNAqfR0BrSBcPsI0RZyNtTuz0Ctp0ghoeKRUR5Q'
+      r: 'https://www.zopistreo.com/BD7N3BM8/JJRFMXZ/?__efq=CaNag-E1snVXb2r39UTFOkxlBQvkq866gSxgfULNnOOPsvltxZ6uAzIKrHzD5g-C',
+      u: 'https://www.zopistreo.com/integration/unsub1/?_redir=CiUAgbOb1cWjmaAXftNnjWXsFfnki8ocMcA2aXeJXQjq5MbouuVWEnMAS6SNtN3EB2Adu1d-TPxXdwFwcT3ON0hg7efRIz8ag19zYc2ZaavBRCAXaxXHzPVQBa7WuK5k423IVcJUkyV3RitDx2Oh3yS9kzuhDkONpVejHpIbq3vXnVr8sd1CIuvsF1LVq6wW1Ind8JoSY4KuS_zU'
     },
     // 8808 
     fut: {
