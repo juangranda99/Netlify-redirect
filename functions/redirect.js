@@ -1,4 +1,28 @@
 
+async function logToSheets(data) {
+  const webhookUrl = process.env.GOOGLE_SHEETS_WEBHOOK;
+  const token = process.env.SHEETS_SECRET_TOKEN;
+  if (!webhookUrl) {
+    console.warn('GOOGLE_SHEETS_WEBHOOK no configurada — log omitido');
+    return;
+  }
+  try {
+    const res = await fetch(webhookUrl, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ ...data, token }),
+      redirect: 'follow',
+    });
+    const body = await res.text();
+    console.log('Sheets response:', res.status, body);
+    if (!res.ok) {
+      console.error('Sheets respondió con error HTTP:', res.status);
+    }
+  } catch (err) {
+    console.error('Error enviando log a Sheets:', err.message);
+  }
+}
+
 exports.handler = async (event) => {
   console.log('Query parameters received:', event.rawQuery || event.queryStringParameters || '');
   console.log('Raw', event.rawQuery)
@@ -47,6 +71,12 @@ exports.handler = async (event) => {
           body: `Image code '${earlyImageCode}' not found`
         };
       }
+      await logToSheets({
+        sub1: queryParams.get('sub1') || '',
+        sub2: queryParams.get('sub2') || '',
+        imagen: earlyImageCode,
+        ip: event.headers['x-forwarded-for'] || event.headers['client-ip'] || '',
+      });
       return {
         statusCode: 302,
         headers: {
