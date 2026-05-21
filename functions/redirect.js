@@ -52,8 +52,8 @@ exports.handler = async (event) => {
 
     // Objeto para las imágenes con códigos cortos
     const images = {
-      i1: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/9036%20-%20CPC%2FScreenshot%202025-11-03%20at%2012.22.38%E2%80%AFAM.jpg?alt=media&token=fc68989e-8bfc-4cb6-805c-03d53c4c7dbc', // 500 652
-      i2: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/9036%20-%20CPC%2FScreenshot%202025-09-28%20at%2012.01.29.jpg?alt=media&token=4c29bd7a-d497-4848-8858-3ca84390c6b1', // 500 71
+      i1: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/9035%20-%20CPC%2FScreenshot%202025-10-11%20at%206.35.40%E2%80%AFPM.jpg?alt=media&token=cfb02b59-c6cc-4552-a757-1066ca48a89a', // 500 717
+      i2: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/9035%20-%20CPC%2FScreenshot%202025-09-25%20at%2000.24.27%20(1).jpg?alt=media&token=dca7b9d3-4c14-4d9c-b4a3-206f10902890', // 500 60
       i3: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/9083%20-%20Comcast%2FFireShot%20Capture%20262%20-%20AARP%20Memorial%20Day%20SALE%20-%20%5B%5D.jpg?alt=media&token=04f348c0-eef9-4618-b4ee-ed3c049ce7f5', // 500 611
       i4: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/9083%20-%20Comcast%2FScreenshot%202025-10-09%20at%206.44.30%E2%80%AFPM.jpg?alt=media&token=3ef1a659-3c9f-424c-bda3-38bacd9abe7d', // 500 65
       i5: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/6056%20-%20Comcast%2FScreenshot%202025-10-01%20at%2010.50.34%E2%80%AFAM.jpg?alt=media&token=8bfba433-5779-43b5-8df8-22a34eeeb462', // 500 843
