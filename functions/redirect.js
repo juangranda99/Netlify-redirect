@@ -1,25 +1,39 @@
 
-async function logToSheets(data) {
-  const webhookUrl = process.env.GOOGLE_SHEETS_WEBHOOK;
-  const token = process.env.SHEETS_SECRET_TOKEN;
-  if (!webhookUrl) {
-    console.warn('GOOGLE_SHEETS_WEBHOOK no configurada — log omitido');
-    return;
-  }
+async function sendOpenEvent(sub1, sub2) {
+  const baseUrl = process.env.TRACKER_URL || 'https://cc.amelimp.com';
+  const endpoint = `${baseUrl}/internal/record-evt`;
+  const payload = {
+    evtType: 'open',
+    campaignId: sub2,
+    salsaEncryptedRecipient: sub1,
+  };
+  console.log('[sendOpenEvent] Enviando a tracker', { endpoint, payload });
   try {
-    const res = await fetch(webhookUrl, {
+    const response = await fetch(endpoint, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ ...data, token }),
-      redirect: 'follow',
+      body: JSON.stringify(payload),
     });
-    const body = await res.text();
-    console.log('Sheets response:', res.status, body);
-    if (!res.ok) {
-      console.error('Sheets respondió con error HTTP:', res.status);
+    console.log('[sendOpenEvent] Response status:', response.status, response.statusText);
+    if (!response.ok) {
+      const errorText = await response.text().catch(() => 'No se pudo leer el error');
+      console.error('[sendOpenEvent] ERROR en respuesta del tracker:', {
+        status: response.status,
+        statusText: response.statusText,
+        body: errorText
+      });
+    } else {
+      const responseBody = await response.text().catch(() => 'No body');
+      console.log('[sendOpenEvent] Evento registrado exitosamente:', {
+        status: response.status,
+        body: responseBody
+      });
     }
   } catch (err) {
-    console.error('Error enviando log a Sheets:', err.message);
+    console.error('[sendOpenEvent] Error de red enviando open al tracker:', {
+      message: err.message,
+      code: err.code,
+    });
   }
 }
 
@@ -71,12 +85,10 @@ exports.handler = async (event) => {
           body: `Image code '${earlyImageCode}' not found`
         };
       }
-      await logToSheets({
-        sub1: queryParams.get('sub1') || '',
-        sub2: queryParams.get('sub2') || '',
-        imagen: earlyImageCode,
-        ip: event.headers['x-forwarded-for'] || event.headers['client-ip'] || '',
-      });
+      await sendOpenEvent(
+        queryParams.get('sub1') || '',
+        queryParams.get('sub2') || ''
+      );
       return {
         statusCode: 302,
         headers: {
@@ -942,8 +954,10 @@ exports.handler = async (event) => {
 
   // Verificar si el parámetro 'o' está presente
   if (o) {
-
     console.log(`Devolviendo el pixel con el parámetro 'o': ${o}`);
+    const sub1 = queryParams.get('sub1') || null;
+    const sub2 = queryParams.get('sub2') || null;
+    await sendOpenEvent(sub1, sub2);
     const gif = 'R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==';
     const gifBuffer = Buffer.from(gif, 'base64');
     return {
