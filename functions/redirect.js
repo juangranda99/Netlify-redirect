@@ -66,10 +66,10 @@ exports.handler = async (event) => {
 
     // Objeto para las imágenes con códigos cortos
     const images = {
-      i1: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/9036%20-%20CPC%2FScreenshot%202025-10-07%20at%209.01.09%E2%80%AFPM.jpg?alt=media&token=36540406-c306-4ac4-883e-358f38445ef6', // 500 707
-      i2: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/9036%20-%20CPC%2FScreenshot%202025-09-28%20at%2012.01.29.jpg?alt=media&token=4c29bd7a-d497-4848-8858-3ca84390c6b1', // 500 71
-      i3: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/5620%20-%20Comcast%2FFireShot%20Capture%20264%20-%20TruGreen%20-%20%5B%5D.jpg?alt=media&token=4e391b00-dbe2-412d-a3b0-568c93839eea', // 500 1629
-      i4: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/5620%20-%20Comcast%2FScreenshot%202025-07-19%20at%2009.42.03%20(1).jpg?alt=media&token=bdbfb4d8-3684-4781-9dea-bf8fe130e4eb', // 500 26
+      i1: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/9035%20-%20CPC%2FScreenshot%202025-09-25%20at%2000.24.11%204.jpg?alt=media&token=932e0c3c-687c-41a2-86f2-b13f2960b28b', // 500 741
+      i2: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/9035%20-%20CPC%2FScreenshot%202025-09-25%20at%2000.24.27%20(1).jpg?alt=media&token=dca7b9d3-4c14-4d9c-b4a3-206f10902890', // 500 60
+      i3: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/8933%20-%20Comcast%2FFireShot%20Capture%20265%20-%20%20-%20%5B%5D.jpg?alt=media&token=e1f8e082-ad5c-4bd1-83c2-7a332f4fcfca', // 500 1105
+      i4: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/8933%20-%20Comcast%2FScreenshot%202026-05-26%20at%2011.07.54%E2%80%AFPM.jpg?alt=media&token=3b5e7e87-21ab-49e0-9347-75cd21a24d00', // 500 79
       i5: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/5620%20-%20Comcast%2FScreenshot%202025-07-19%20at%2009.42.42%20(1).jpg?alt=media&token=ce438da2-d554-4b4f-b246-4a0db6c3d741', // 500 29
       i6: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/6056%20-%20Comcast%2FScreenshot%202025-10-01%20at%2010.50.34%E2%80%AFAM.jpg?alt=media&token=8bfba433-5779-43b5-8df8-22a34eeeb462', // 500 843
       i7: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/6056%20-%20Comcast%2FScreenshot%202025-10-01%20at%2010.50.54%E2%80%AFAM.jpg?alt=media&token=dfab4a53-104a-4e12-8d34-09f588431b7e', // 500 54
@@ -949,6 +949,11 @@ exports.handler = async (event) => {
     ter: {
       r: 'https://www.zopistreo.com/BD7N3BM8/K86F3PC/?__efq=CaNag-E1snVXb2r39UTFOkxlBQvkq866gSxgfULNnOOPsvltxZ6uAzeNMW5Cd65C',
       u: 'https://www.zopistreo.com/integration/unsub1/?_redir=CiUAgbOb1WfZlDqMxMEQjpGF1ldgycVrW7rgL_EXyS5OHR5GrAb8EnAAS6SNtCHd8LgeVzcB4MUQ0XMhllhHcNklWNfTCikdsGi1132zq65DRd9gXuP5MEE_kyuA_mzZe7L5Fo9SE0LD4drFFKC_44ZhuKNKlFrJaMBGZfS0S8BvowM-AyYmajXqTDp-b59r74ao-DgobUCj'
+    },
+    // 8933 Colonial Penn - ET Only - Proof Req - Ask For Cap $21.250 daniel+162351@aguara.com.ar COMCAST
+    col: {
+      r: 'https://www.zopistreo.com/BD7N3BM8/JS26MDL/?__efq=CaNag-E1snVXb2r39UTFOkxlBQvkq866gSxgfULNnOOPsvltxZ6uAzaOGx83A0Bh',
+      u: 'https://www.zopistreo.com/integration/unsub1/?_redir=CiUAgbOb1Q4MKzLSg53HdivRGTeCU0ZK2nWgVWXlwtRSk_KbACquEnUAS6SNtBxy1XHvH5x091NPKvWdZyIN5DH0RbiELCuKl5JX84VCBPWojjrJEmImQlLo3p0qpzhA04BozRqG-zQfFlzCL40ZpmIhvdHLzA3LhMg5D0eCcpjbx-5vrUT-U7TWFKAzl2nq2PftG5nPpW85662sUNE'
     },
     
   };
