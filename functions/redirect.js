@@ -66,13 +66,13 @@ exports.handler = async (event) => {
 
     // Objeto para las imágenes con códigos cortos
     const images = {
-      i1: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/9035%20-%20CPC%2FScreenshot%202026-02-01%20at%2011.32.04%E2%80%AFPM.jpg?alt=media&token=cc86300e-2bb1-421b-85ff-17f3a4798aa5', // 500 559
-      i2: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/9035%20-%20CPC%2FScreenshot%202025-09-25%20at%2000.24.27%20(1).jpg?alt=media&token=dca7b9d3-4c14-4d9c-b4a3-206f10902890', // 500 60
-      i3: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/8933%20-%20Comcast%2FFireShot%20Capture%20272%20-%20%20-%20%5B%5D.jpg?alt=media&token=b25b2806-1426-4343-82d1-c10008c69fac', // 500 1320
-      i4: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/8933%20-%20Comcast%2FScreenshot%202026-05-26%20at%2011.07.54%E2%80%AFPM.jpg?alt=media&token=3b5e7e87-21ab-49e0-9347-75cd21a24d00', // 500 79
-      i5: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/7412%20-%20Comcast%2FScreenshot%202025-07-10%20at%2015.18.00%20(1).jpg?alt=media&token=a9ac6307-6717-4510-86e0-d623a5666eb5', // 500 35
-      i6: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/8595%20-%20Comcast%2FScreenshot%202026-01-14%20at%2012.24.06%E2%80%AFAM.jpg?alt=media&token=3efa3ec0-8ff0-4dbb-ab84-2a669c032ce6', // 500 54
-      i7: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/6056%20-%20Comcast%2FScreenshot%202025-10-01%20at%2010.50.54%E2%80%AFAM.jpg?alt=media&token=dfab4a53-104a-4e12-8d34-09f588431b7e', // 500 54
+      i1: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/9036%20-%20CPC%2FScreenshot%202026-01-22%20at%208.40.42%E2%80%AFPM.jpg?alt=media&token=818634a4-def5-4883-998f-c344304a1929', // 500 553
+      i2: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/9036%20-%20CPC%2FScreenshot%202025-09-28%20at%2012.01.29.jpg?alt=media&token=4c29bd7a-d497-4848-8858-3ca84390c6b1', // 500 71
+      i3: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/8685%20-%20Comcast%2FFireShot%20Capture%20274%20-%20LaserAway%20-%20%5B%5D.jpg?alt=media&token=e779a6a6-371a-488d-adb9-2d6be91db157', // 500 1119
+      i4: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/8685%20-%20Comcast%2FScreenshot%202025-09-28%20at%2012.21.07.jpg?alt=media&token=d3cdcbbe-e5e1-422d-b8ad-b5c32e53bc4d', // 500 73
+      i5: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/3776%20-%20Comcast%2FFireShot%20Capture%20198%20-%20Renewal%20By%20Andersen%20Window%20Replacement%20-%20%5B%5D.jpg?alt=media&token=6dd1c7c0-bfda-43f0-9830-997ccff8ef07', // 500 1880
+      i6: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/3776%20-%20Comcast%2FScreenshot%202025-09-29%20at%2011.16.38%E2%80%AFPM.jpg?alt=media&token=344648dc-acf7-458f-8006-6fde36c30d45', // 500 29
+      i7: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/3776%20-%20Comcast%2FScreenshot%202025-09-29%20at%2011.16.58%E2%80%AFPM.jpg?alt=media&token=8a954f06-4a0a-4dba-b147-d8537a7d1f2f', // 500 72
       // Podes agregar más imágenes aquí con códigos cortos
     };
 
@@ -954,6 +954,16 @@ exports.handler = async (event) => {
     col: {
       r: 'https://www.zopistreo.com/BD7N3BM8/JS26MDL/?__efq=CaNag-E1snVXb2r39UTFOkxlBQvkq866gSxgfULNnOOPsvltxZ6uAzaOGx83A0Bh',
       u: 'https://www.zopistreo.com/integration/unsub1/?_redir=CiUAgbOb1Q4MKzLSg53HdivRGTeCU0ZK2nWgVWXlwtRSk_KbACquEnUAS6SNtBxy1XHvH5x091NPKvWdZyIN5DH0RbiELCuKl5JX84VCBPWojjrJEmImQlLo3p0qpzhA04BozRqG-zQfFlzCL40ZpmIhvdHLzA3LhMg5D0eCcpjbx-5vrUT-U7TWFKAzl2nq2PftG5nPpW85662sUNE'
+    },
+    // 9574 EXCL - Drink Tinto - Proof Req $51.250 daniel+162351@aguara.com.ar COMCAST
+    drl: {
+      r: 'https://www.zopistreo.com/BD7N3BM8/KXSBX5R/?__efq=CaNag-E1snVXb2r39UTFOkxlBQvkq866gSxgfULNnOOPsvltxZ6uA89mebtmhlV_',
+      u: 'https://www.zopistreo.com/integration/unsub1/?_redir=CiUAgbOb1RoqhGe8fqNhHGTQK9Wfu3Dks5632Jha3DDvvOv2tFwfEnIAS6SNtHylWT0sBErmNaaZvT-FooBkg8mFzxATvKQUgyCN0Bwa9rTwt22y7SqOd4C7qAL042_vkMzzZcVHsPogiC6cIZF7hXy63xgyvTvjI0uuxic8tAfGJhhReHrG1B9YhzXrQ_0cHv9bsfS18yz9ETc'
+    },
+    // 9570 Hexclad - Proof Req $51.250 daniel+162351@aguara.com.ar COMCAST
+    hex: {
+      r: 'https://www.zopistreo.com/BD7N3BM8/KXLRD7C/?__efq=CaNag-E1snVXb2r39UTFOkxlBQvkq866gSxgfULNnOOPsvltxZ6uA-NZDdJPWkef',
+      u: 'https://www.zopistreo.com/integration/unsub1/?_redir=CiUAgbOb1SnQdw0qqiCI2L1LhEkUNgSGhHkXa8HKhzTek1e_3In3EnEAS6SNtJgnfEhC_tR5R72d9asLB8wRCtN7enuQYt-lhbZw9_-ZmdVTGRfthQV9wHvu1Kd7AXZX--ubVVZPFDWZldNpZzTYt2R59V1RVCtum-Qe82VmzdINd9Cr-uJ-B2cNX-5FjzrHTtmNg0hTm8yTSA'
     },
     
   };
