@@ -66,8 +66,8 @@ exports.handler = async (event) => {
 
     // Objeto para las imágenes con códigos cortos
     const images = {
-      i1: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/8229%20-%20Comcast%2FFireShot%20Capture%20250%20-%20Endurance%20-%20%5B%5D.jpg?alt=media&token=c7180b0d-8e4a-4cd8-a075-25e4ebd3badf', // 500 1434
-      i2: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/8229%20-%20Comcast%2FScreenshot%202026-03-16%20at%2010.27.58%E2%80%AFPM.jpg?alt=media&token=7e54f060-2c94-4de8-92ad-c9c5afc9a71c', // 500 61
+      i1: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/9580%20-%20Comcast%2FFireShot%20Capture%20281%20-%20BarkBox%20-%20%5B%5D.jpg?alt=media&token=74de59c6-e239-4d52-8442-9dfe6850c507', // 500 1275
+      i2: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/9580%20-%20Comcast%2FScreenshot%202026-06-24%20at%2012.09.24%E2%80%AFAM.jpg?alt=media&token=d36348cf-579d-44fd-862e-8f772db87c96', // 500 135
       i3: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/7909%20-%20Comcast%2FFireShot%20Capture%20203%20-%20%20-%20%5B%5D.jpg?alt=media&token=a88cdf43-acea-42af-89b5-900f3ad54b7b', // 500 1056
       i4: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/7909%20-%20Comcast%2FScreenshot%202026-02-06%20at%208.46.51%E2%80%AFPM.jpg?alt=media&token=810bce18-08e2-4b6c-839d-e9804d81ab9f', // 500 83
       i5: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/7085%20-%20Comcast%2FScreenshot%202025-10-03%20at%208.39.40%E2%80%AFPM.jpg?alt=media&token=cc71c9ac-e280-4784-b28c-d39a9e38a1aa', // 500 41
@@ -964,6 +964,11 @@ exports.handler = async (event) => {
     hex: {
       r: 'https://www.zopistreo.com/BD7N3BM8/KXLRD7C/?__efq=CaNag-E1snVXb2r39UTFOkxlBQvkq866gSxgfULNnOOPsvltxZ6uA-NZDdJPWkef',
       u: 'https://www.zopistreo.com/integration/unsub1/?_redir=CiUAgbOb1SnQdw0qqiCI2L1LhEkUNgSGhHkXa8HKhzTek1e_3In3EnEAS6SNtJgnfEhC_tR5R72d9asLB8wRCtN7enuQYt-lhbZw9_-ZmdVTGRfthQV9wHvu1Kd7AXZX--ubVVZPFDWZldNpZzTYt2R59V1RVCtum-Qe82VmzdINd9Cr-uJ-B2cNX-5FjzrHTtmNg0hTm8yTSA'
+    },
+    // 9580 BarkBox $42.150 daniel+162351@aguara.com.ar COMCAST
+    box: {
+      r: 'https://www.zopistreo.com/BD7N3BM8/KZ4N7KF/?__efq=CaNag-E1snVXb2r39UTFOkxlBQvkq866gSxgfULNnOOPsvltxZ6uA8K_xb1BDdGP',
+      u: 'https://www.zopistreo.com/integration/unsub1/?_redir=CiUAgbOb1QFtZ0yDeNFHRlgWCsz1bO-3pghtxNnEle6oXUJYZudGEm0ATIt00BGlwJwodY7oVhpfWJboA37ebp5a0NIXczvnos3lkmNy8SJz2aP8JYio-FPrae4d3pYOLc8mtWB7or8PKEqup9afTQaQHOxHSAX2XkqctynS-TAMx1MDgxCFQXHyeIryJnpDV68Ba1FX'
     },
     
   };
