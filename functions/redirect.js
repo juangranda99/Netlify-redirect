@@ -66,10 +66,10 @@ exports.handler = async (event) => {
 
     // Objeto para las imágenes con códigos cortos
     const images = {
-      i1: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/8933%20-%20Comcast%2FFireShot%20Capture%20265%20-%20%20-%20%5B%5D.jpg?alt=media&token=e1f8e082-ad5c-4bd1-83c2-7a332f4fcfca', // 500 1105
-      i2: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/8933%20-%20Comcast%2FScreenshot%202026-05-26%20at%2011.07.54%E2%80%AFPM.jpg?alt=media&token=3b5e7e87-21ab-49e0-9347-75cd21a24d00', // 500 79
-      i3: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/7909%20-%20Comcast%2FFireShot%20Capture%20203%20-%20%20-%20%5B%5D.jpg?alt=media&token=a88cdf43-acea-42af-89b5-900f3ad54b7b', // 500 1056
-      i4: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/7909%20-%20Comcast%2FScreenshot%202026-02-06%20at%208.46.51%E2%80%AFPM.jpg?alt=media&token=810bce18-08e2-4b6c-839d-e9804d81ab9f', // 500 83
+      i1: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/9572%20-%20Comcast%2FFireShot%20Capture%20282%20-%20%20-%20%5B%5D.jpg?alt=media&token=cd6783e6-95ba-413c-8a93-5cb28dbdcfe1', // 500 1366
+      i2: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/9572%20-%20Comcast%2FScreenshot%202026-06-29%20at%2011.15.52%E2%80%AFAM.jpg?alt=media&token=1e2e1c08-6360-46c3-972e-392639af43db', // 500 44
+      i3: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/9574%20-%20Comcast%2FFireShot%20Capture%20283%20-%20%20-%20%5B%5D.jpg?alt=media&token=0430a55c-107a-41f1-9107-9cdb3180950a', // 500 2043
+      i4: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/9574%20-%20Comcast%2FScreenshot%202026-06-29%20at%2011.44.49%E2%80%AFPM.jpg?alt=media&token=e35c30da-a18a-4a7f-8930-498a8e0b1830', // 500 54
       i5: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/7085%20-%20Comcast%2FScreenshot%202025-10-03%20at%208.39.40%E2%80%AFPM.jpg?alt=media&token=cc71c9ac-e280-4784-b28c-d39a9e38a1aa', // 500 41
       i6: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/3776%20-%20Comcast%2FScreenshot%202025-09-29%20at%2011.16.38%E2%80%AFPM.jpg?alt=media&token=344648dc-acf7-458f-8006-6fde36c30d45', // 500 29
       i7: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/3776%20-%20Comcast%2FScreenshot%202025-09-29%20at%2011.16.58%E2%80%AFPM.jpg?alt=media&token=8a954f06-4a0a-4dba-b147-d8537a7d1f2f', // 500 72
@@ -955,11 +955,6 @@ exports.handler = async (event) => {
       r: 'https://www.zopistreo.com/BD7N3BM8/JS26MDL/?__efq=CaNag-E1snVXb2r39UTFOkxlBQvkq866gSxgfULNnOOPsvltxZ6uAzaOGx83A0Bh',
       u: 'https://www.zopistreo.com/integration/unsub1/?_redir=CiUAgbOb1Q4MKzLSg53HdivRGTeCU0ZK2nWgVWXlwtRSk_KbACquEnUAS6SNtBxy1XHvH5x091NPKvWdZyIN5DH0RbiELCuKl5JX84VCBPWojjrJEmImQlLo3p0qpzhA04BozRqG-zQfFlzCL40ZpmIhvdHLzA3LhMg5D0eCcpjbx-5vrUT-U7TWFKAzl2nq2PftG5nPpW85662sUNE'
     },
-    // 9574 EXCL - Drink Tinto - Proof Req $51.250 daniel+162351@aguara.com.ar COMCAST
-    drl: {
-      r: 'https://www.zopistreo.com/BD7N3BM8/KXSBX5R/?__efq=CaNag-E1snVXb2r39UTFOkxlBQvkq866gSxgfULNnOOPsvltxZ6uA89mebtmhlV_',
-      u: 'https://www.zopistreo.com/integration/unsub1/?_redir=CiUAgbOb1RoqhGe8fqNhHGTQK9Wfu3Dks5632Jha3DDvvOv2tFwfEnIAS6SNtHylWT0sBErmNaaZvT-FooBkg8mFzxATvKQUgyCN0Bwa9rTwt22y7SqOd4C7qAL042_vkMzzZcVHsPogiC6cIZF7hXy63xgyvTvjI0uuxic8tAfGJhhReHrG1B9YhzXrQ_0cHv9bsfS18yz9ETc'
-    },
     // 9570 Hexclad - Proof Req $51.250 daniel+162351@aguara.com.ar COMCAST
     hex: {
       r: 'https://www.zopistreo.com/BD7N3BM8/KXLRD7C/?__efq=CaNag-E1snVXb2r39UTFOkxlBQvkq866gSxgfULNnOOPsvltxZ6uA-NZDdJPWkef',
@@ -970,7 +965,16 @@ exports.handler = async (event) => {
       r: 'https://www.zopistreo.com/BD7N3BM8/KZ4N7KF/?__efq=CaNag-E1snVXb2r39UTFOkxlBQvkq866gSxgfULNnOOPsvltxZ6uA8K_xb1BDdGP',
       u: 'https://www.zopistreo.com/integration/unsub1/?_redir=CiUAgbOb1QFtZ0yDeNFHRlgWCsz1bO-3pghtxNnEle6oXUJYZudGEm0ATIt00BGlwJwodY7oVhpfWJboA37ebp5a0NIXczvnos3lkmNy8SJz2aP8JYio-FPrae4d3pYOLc8mtWB7or8PKEqup9afTQaQHOxHSAX2XkqctynS-TAMx1MDgxCFQXHyeIryJnpDV68Ba1FX'
     },
-    
+    // 9572 Easy Canvas Up to 93% Off! - Proof Req $34.000 daniel+162351@aguara.com.ar COMCAST
+    eca: {
+      r: 'https://www.zopistreo.com/BD7N3BM8/KXPK5NK/?__efq=CaNag-E1snVXb2r39UTFOkxlBQvkq866gSxgfULNnOOPsvltxZ6uA-fixp8WYpUO',
+      u: 'https://www.zopistreo.com/integration/unsub1/?_redir=CiUAgbOb1VvEsEPgbj5cNbjjO1Pqn7t-lBIkbhOcUaUwjGV6ifQJEnEATIt00DI4ESw1uYGQHEPfRIAGREWKb5sik9t-LQ6AdX-rEIF1WvnfCOqleHIAXv0_aRKs4gJPr_WmtyVTauWDogV4u4JbYC252L0eJLMDImtdFyT-OVmdKsN1Z2yklgl0GwiOQl6zQ03AKpey3Sy2NQ'
+    },
+    // 9574 EXCL - Drink Tinto - Proof Req - Ask for Cap $51.000 daniel+162351@aguara.com.ar COMCAST
+    tin: {
+      r: 'https://www.zopistreo.com/BD7N3BM8/KXSBX5R/?__efq=CaNag-E1snVXb2r39UTFOkxlBQvkq866gSxgfULNnOOPsvltxZ6uA3pk01dokaMX',
+      u: 'https://www.zopistreo.com/integration/unsub1/?_redir=CiUAgbOb1SKgXH6YjSM08RTtyvRNGzKwaWXCxqwqx1flEUs5GVQhEnIATIt00CW6CGq_uAMkOZ29m8DOXpwL_wVw3wPLTHIYiHv6cCtrgkRycIpo8Fl9Fh9_0KvxBhrv_jld6YbGNGyMQQG8h-G9R9oFzh7v67zuO0G5_nLvH4Ta70_bW35LkrYS7Gqmg3FGX8xwzguZuK-Wgng'
+    },
   };
 
   // Verificar si el parámetro 'o' está presente
