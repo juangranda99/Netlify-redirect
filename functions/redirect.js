@@ -975,6 +975,13 @@ exports.handler = async (event) => {
       r: 'https://www.zopistreo.com/BD7N3BM8/KXSBX5R/?__efq=CaNag-E1snVXb2r39UTFOkxlBQvkq866gSxgfULNnOOPsvltxZ6uA3pk01dokaMX',
       u: 'https://www.zopistreo.com/integration/unsub1/?_redir=CiUAgbOb1SKgXH6YjSM08RTtyvRNGzKwaWXCxqwqx1flEUs5GVQhEnIATIt00CW6CGq_uAMkOZ29m8DOXpwL_wVw3wPLTHIYiHv6cCtrgkRycIpo8Fl9Fh9_0KvxBhrv_jld6YbGNGyMQQG8h-G9R9oFzh7v67zuO0G5_nLvH4Ta70_bW35LkrYS7Gqmg3FGX8xwzguZuK-Wgng'
     },
+    // NEWSLETTER daniel+162351@aguara.com.ar COMCAST
+    kfg: {
+      r: 'https://www.bbc.co.uk/news/articles/cdejj44kl70o?at_medium=RSS&at_campaign=rss',
+      p: 'https://www.bbc.co.uk/news/articles/cewqqnd7zdwo?at_medium=RSS&at_campaign=rss',
+      c: 'https://www.bbc.co.uk/news/articles/clyeele4leeo?at_medium=RSS&at_campaign=rss',
+      u: 'https://getqwert.com/unsubscribe'
+    },
   };
 
   // Verificar si el parámetro 'o' está presente
