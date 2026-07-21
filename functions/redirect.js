@@ -1,40 +1,48 @@
 
-async function sendOpenEvent(sub1, sub2) {
+async function sendTrackerEvent(evtType, sub1, sub2) {
   const baseUrl = process.env.TRACKER_URL || 'https://cc.amelimp.com';
   const endpoint = `${baseUrl}/internal/record-evt`;
   const payload = {
-    evtType: 'open',
+    evtType,
     campaignId: sub2,
     salsaEncryptedRecipient: sub1,
   };
-  console.log('[sendOpenEvent] Enviando a tracker', { endpoint, payload });
+  console.log(`[sendTrackerEvent] Enviando ${evtType} a tracker`, { endpoint, payload });
   try {
     const response = await fetch(endpoint, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(payload),
     });
-    console.log('[sendOpenEvent] Response status:', response.status, response.statusText);
+    console.log(`[sendTrackerEvent] Response status (${evtType}):`, response.status, response.statusText);
     if (!response.ok) {
       const errorText = await response.text().catch(() => 'No se pudo leer el error');
-      console.error('[sendOpenEvent] ERROR en respuesta del tracker:', {
+      console.error(`[sendTrackerEvent] ERROR en respuesta del tracker (${evtType}):`, {
         status: response.status,
         statusText: response.statusText,
         body: errorText
       });
     } else {
       const responseBody = await response.text().catch(() => 'No body');
-      console.log('[sendOpenEvent] Evento registrado exitosamente:', {
+      console.log(`[sendTrackerEvent] Evento ${evtType} registrado exitosamente:`, {
         status: response.status,
         body: responseBody
       });
     }
   } catch (err) {
-    console.error('[sendOpenEvent] Error de red enviando open al tracker:', {
+    console.error(`[sendTrackerEvent] Error de red enviando ${evtType} al tracker:`, {
       message: err.message,
       code: err.code,
     });
   }
+}
+
+async function sendOpenEvent(sub1, sub2) {
+  return sendTrackerEvent('open', sub1, sub2);
+}
+
+async function sendClickEvent(sub1, sub2) {
+  return sendTrackerEvent('click', sub1, sub2);
 }
 
 exports.handler = async (event) => {
@@ -1028,6 +1036,10 @@ exports.handler = async (event) => {
           : baseUrl;
 
         console.log('Redirecting to:', finalUrl);
+        await sendClickEvent(
+          queryParams.get('sub1') || '',
+          queryParams.get('sub2') || ''
+        );
         return {
           statusCode: 302,
           headers: { Location: encodeURI(finalUrl) }
