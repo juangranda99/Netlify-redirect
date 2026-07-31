@@ -74,9 +74,9 @@ exports.handler = async (event) => {
 
     // Objeto para las imágenes con códigos cortos
     const images = {
-      i1: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/8535%20-%20Comcast%2FFireShot%20Capture%20075%20-%20%20-%20%5B%5D.jpg?alt=media&token=5afc67db-b618-46a0-9dbe-2085ca2d1ae0', // 500 1569
-      i2: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/8535%20-%20Comcast%2FScreenshot%202025-09-30%20at%2011.26.42%E2%80%AFPM.jpg?alt=media&token=752eb9f9-b519-4ba9-b064-164f21520ef6', // 500 51
-      i3: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/7155%20-%20Comcast%2FScreenshot%202026-01-19%20at%202.55.51%E2%80%AFPM.jpg?alt=media&token=eefab2cd-e05d-4ea7-9412-ff9bb0aee4be', // 500 68
+      i1: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/7667%20-%20Comcast%2FFireShot%20Capture%20295%20-%20__%20-%20%5B%5D.jpg?alt=media&token=c1502f95-d808-4bba-8e37-83691edc7cb9', // 500 759
+      i2: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/7667%20-%20Comcast%2FScreenshot%202025-10-25%20at%205.16.55%E2%80%AFPM.jpg?alt=media&token=bd7a72c6-f5b5-4dc4-9e36-14579001998f', // 500 31
+      i3: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/7667%20-%20Comcast%2FScreenshot%202025-10-25%20at%205.17.11%E2%80%AFPM.jpg?alt=media&token=a6694bc8-6f36-4985-9f85-aba57b76c815', // 500 31
       i4: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/9574%20-%20Comcast%2FScreenshot%202026-06-29%20at%2011.44.49%E2%80%AFPM.jpg?alt=media&token=e35c30da-a18a-4a7f-8930-498a8e0b1830', // 500 54
       i5: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/7085%20-%20Comcast%2FScreenshot%202025-10-03%20at%208.39.40%E2%80%AFPM.jpg?alt=media&token=cc71c9ac-e280-4784-b28c-d39a9e38a1aa', // 500 41
       i6: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/3776%20-%20Comcast%2FScreenshot%202025-09-29%20at%2011.16.38%E2%80%AFPM.jpg?alt=media&token=344648dc-acf7-458f-8006-6fde36c30d45', // 500 29
