@@ -74,8 +74,8 @@ exports.handler = async (event) => {
 
     // Objeto para las imágenes con códigos cortos
     const images = {
-      i1: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/8595%20-%20Comcast%2FFireShot%20Capture%20204%20-%20%20-%20%5B%5D.jpg?alt=media&token=f06aa54d-e370-4861-adcd-0938af8fa7c7', // 500 710
-      i2: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/8595%20-%20Comcast%2FScreenshot%202026-01-14%20at%2012.24.06%E2%80%AFAM.jpg?alt=media&token=3efa3ec0-8ff0-4dbb-ab84-2a669c032ce6', // 500 54
+      i1: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/8796%20-%20Comcast%2FFireShot%20Capture%20301%20-%20%20-%20%5B%5D.jpg?alt=media&token=830a3ab7-6fb2-4e06-a85c-a05a89ba48a5', // 500 678
+      i2: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/8796%20-%20Comcast%2FScreenshot%202026-08-25%20at%208.31.46%E2%80%AFPM.jpg?alt=media&token=1837b7c2-2ef8-4f19-bb4b-f1faf834f291', // 500 48
       i3: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/7155%20-%20Comcast%2FScreenshot%202026-01-19%20at%202.56.44%E2%80%AFPM.jpg?alt=media&token=2ba7c977-fdf7-418d-9b44-84344a743135', // 500 66
       i4: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/9574%20-%20Comcast%2FScreenshot%202026-06-29%20at%2011.44.49%E2%80%AFPM.jpg?alt=media&token=e35c30da-a18a-4a7f-8930-498a8e0b1830', // 500 54
       i5: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/7085%20-%20Comcast%2FScreenshot%202025-10-03%20at%208.39.40%E2%80%AFPM.jpg?alt=media&token=cc71c9ac-e280-4784-b28c-d39a9e38a1aa', // 500 41
@@ -989,6 +989,11 @@ exports.handler = async (event) => {
       p: 'https://www.bbc.co.uk/news/articles/cewqqnd7zdwo?at_medium=RSS&at_campaign=rss',
       c: 'https://www.bbc.co.uk/news/articles/clyeele4leeo?at_medium=RSS&at_campaign=rss',
       u: 'https://getqwert.com/unsubscribe'
+    },
+    // 8796 AARP - Labor Day $11 per Year Promo $51.000 daniel+162351@aguara.com.ar COMCAST
+    apr: {
+      r: 'https://www.zopistreo.com/BD7N3BM8/JK7XLKF/?__efq=CaNag-E1snVXb2r39UTFOkxlBQvkq866gSxgfULNnOOPsvltxZ6uA9glG4vF10pd',
+      u: 'https://www.zopistreo.com/integration/unsub1/?_redir=CiUAgbOb1R28wb4Kzdy6Jl5klMR-cKW1PsIoyXtzOuxGrAyVvYQ9EnIATIt00K-QztDiltNU2GQyqmm4nonowV8B0EaRDJb0grfJNKIC3yNtHdCGn-yKwCh33FrgJC_g456xM8HqVl0kZJOQjaEpoV7arGAQ-JLtRWAQRWNEu699tYM9Q_bQPVKhNVhtNnZfW7gpiIAn_r4N3YE'
     },
   };
 
