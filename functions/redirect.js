@@ -995,6 +995,11 @@ exports.handler = async (event) => {
       r: 'https://www.zopistreo.com/BD7N3BM8/JK7XLKF/?__efq=CaNag-E1snVXb2r39UTFOkxlBQvkq866gSxgfULNnOOPsvltxZ6uA9glG4vF10pd',
       u: 'https://www.zopistreo.com/integration/unsub1/?_redir=CiUAgbOb1R28wb4Kzdy6Jl5klMR-cKW1PsIoyXtzOuxGrAyVvYQ9EnIATIt00K-QztDiltNU2GQyqmm4nonowV8B0EaRDJb0grfJNKIC3yNtHdCGn-yKwCh33FrgJC_g456xM8HqVl0kZJOQjaEpoV7arGAQ-JLtRWAQRWNEu699tYM9Q_bQPVKhNVhtNnZfW7gpiIAn_r4N3YE'
     },
+    // 9576 BathWraps - Ask for Cap $127.000 daniel+162351@aguara.com.ar COMCAST
+    bag: {
+      r: 'https://www.zopistreo.com/BD7N3BM8/KXX4NM1/?__efq=CaNag-E1snVXb2r39UTFOkxlBQvkq866gSxgfULNnOOPsvltxZ6uAzg0BtHea1HY',
+      u: 'https://www.zopistreo.com/integration/unsub1/?_redir=CiUAgbOb1ZURJCRQJlr75KlQ9mBRk3OAVY7ncgX0DMTqkFtTZpJ9EnMAdOp_QlhL_MzyIXkAdA_qAXndGJBCPbVDJloC6bCEwp9RixWoe0x-yfZ76693dUYN3fWwg8N9006BHVGq2DlLYYrnokaj3kZ7n9TDacV4JpBAasmY6c2eAwnZw1WVpYVbpdvNahKGDMsAEHVoIyt5LyDk'
+    },
   };
 
   // Verificar si el parámetro 'o' está presente
