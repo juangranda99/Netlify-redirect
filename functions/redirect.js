@@ -74,8 +74,8 @@ exports.handler = async (event) => {
 
     // Objeto para las imágenes con códigos cortos
     const images = {
-      i1: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/6056%20-%20Comcast%2FFireShot%20Capture%20314%20-%20%20-%20%5B%5D.jpg?alt=media&token=5f395a90-2534-4aff-88ba-f46e6e685562', // 500 1069
-      i2: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/6056%20-%20Comcast%2FScreenshot%202025-10-01%20at%2010.50.54%E2%80%AFAM.jpg?alt=media&token=dfab4a53-104a-4e12-8d34-09f588431b7e', // 500 54
+      i1: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/8875%20-%20Comcast%2FFireShot%20Capture%20315%20-%20Santa%20Letters%20-%20%5B%5D.jpg?alt=media&token=81323663-d7b3-40e9-a676-fb28e4fedf7d', // 500 1715
+      i2: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/8875%20-%20Comcast%2FScreenshot%202025-11-06%20at%207.06.08%E2%80%AFPM.jpg?alt=media&token=b52c4cf1-8816-4eb7-9ef2-6f032d1e4bcc', // 500 57
       i3: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/7155%20-%20Comcast%2FScreenshot%202026-01-19%20at%202.56.44%E2%80%AFPM.jpg?alt=media&token=2ba7c977-fdf7-418d-9b44-84344a743135', // 500 66
       i4: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/9574%20-%20Comcast%2FScreenshot%202026-06-29%20at%2011.44.49%E2%80%AFPM.jpg?alt=media&token=e35c30da-a18a-4a7f-8930-498a8e0b1830', // 500 54
       i5: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/7085%20-%20Comcast%2FScreenshot%202025-10-03%20at%208.39.40%E2%80%AFPM.jpg?alt=media&token=cc71c9ac-e280-4784-b28c-d39a9e38a1aa', // 500 41
@@ -819,8 +819,8 @@ exports.handler = async (event) => {
     },
     // 8875 Santa Letters & Packages $25.500 daniel+162351@aguara.com.ar COMCAST
     san: {
-      r: 'https://www.zopistreo.com/BD7N3BM8/JP5MDPD/?__efq=CaNag-E1snVXb2r39UTFOkxlBQvkq866gSxgfULNnOOPsvltxZ6uA1FkAirBEt3p',
-      u: 'https://www.zopistreo.com/integration/unsub1/?_redir=CiUAgbOb1dkdpiKqHKek_gv5dIdH2lon3aw5lahLn1mBbuCiOHSXEosBANTS2WmVMpJOmSxhaw4-mF9Dyz_ZwnvB1kwrIYas7BJUwbT6g2OBw18DumGx9UWy6rs0fMuegxe5cPjwXokipx_R9rqd8t9DOk_YcT3wR6XKbzRsCUE-6o8C7BFDqutxcpiEV_g6aRlwi1ZwFtcMzQB5cGPsl0sX2tfnC2beDs5u0GY9GTPV1UpOfQ'
+      r: 'https://www.zopistreo.com/BD7N3BM8/JP5MDPD/?__efq=CaNag-E1snVXb2r39UTFOkxlBQvkq866gSxgfULNnOOPsvltxZ6uAzuQHJtaW-tw',
+      u: 'https://www.zopistreo.com/integration/unsub1/?_redir=CiUAgbOb1fUE6Mpw8FDcujfV6dZstannsmc4WWsv4nIpsMnCwq6xEkkAdOp_QpatqHn-5ViFdML-EEKdzpOr0ax4BXbm2UdSXsMMLcJBfwWVp1s1RuC8i6Vx1XfJMR03STof76ETCg3vc_9GbHGWvWv4'
     },
     // 9344 Cuttivo Cutting Board $55.500 daniel+162351@aguara.com.ar COMCAST
     cut: {
