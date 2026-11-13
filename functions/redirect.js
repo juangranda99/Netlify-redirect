@@ -74,9 +74,9 @@ exports.handler = async (event) => {
 
     // Objeto para las imágenes con códigos cortos
     const images = {
-      i1: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/8535%20-%20Comcast%2FFireShot%20Capture%20007%20-%20%20-%20%5B%5D.jpg?alt=media&token=aa1cb77f-8a98-46eb-b05c-9fa86d39179c', // 500 1651
-      i2: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/8535%20-%20Comcast%2FScreenshot%202025-09-30%20at%2011.26.42%E2%80%AFPM.jpg?alt=media&token=752eb9f9-b519-4ba9-b064-164f21520ef6', // 500 51
-      i3: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/7155%20-%20Comcast%2FScreenshot%202026-01-19%20at%202.56.44%E2%80%AFPM.jpg?alt=media&token=2ba7c977-fdf7-418d-9b44-84344a743135', // 500 66
+      i1: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/7155%20-%20Comcast%2FFireShot%20Capture%20320%20-%20Healthcare.com%20-%202027%20ACA%20Open%20Enrollment%20-%20%5B%5D.jpg?alt=media&token=472c16c9-95c3-4b3e-9f65-ed07590563f2', // 500 1235
+      i2: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/7155%20-%20Comcast%2FScreenshot%202026-01-19%20at%202.53.30%E2%80%AFPM.jpg?alt=media&token=25aad480-fe3a-45cb-9f02-9f54ef517a43', // 500 388
+      i3: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/7155%20-%20Comcast%2FScreenshot%202025-10-06%20at%2010.28.10%E2%80%AFPM.jpg?alt=media&token=843ceea8-801b-4049-9344-adea9d88b427', // 500 57
       i4: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/9574%20-%20Comcast%2FScreenshot%202026-06-29%20at%2011.44.49%E2%80%AFPM.jpg?alt=media&token=e35c30da-a18a-4a7f-8930-498a8e0b1830', // 500 54
       i5: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/7085%20-%20Comcast%2FScreenshot%202025-10-03%20at%208.39.40%E2%80%AFPM.jpg?alt=media&token=cc71c9ac-e280-4784-b28c-d39a9e38a1aa', // 500 41
       i6: 'https://firebasestorage.googleapis.com/v0/b/play-c33aa.firebasestorage.app/o/3776%20-%20Comcast%2FScreenshot%202025-09-29%20at%2011.16.38%E2%80%AFPM.jpg?alt=media&token=344648dc-acf7-458f-8006-6fde36c30d45', // 500 29
